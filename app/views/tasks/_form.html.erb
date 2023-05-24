@@ -1,0 +1,7 @@
+<%= form_with model: @tasks do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+  <%= f.submit "banana", class: "btn btn-primary m-3 ps-2" %>
+<% end %>
